@@ -8,11 +8,6 @@ from numpy import array
 import numpy as np
 from sklearn.preprocessing import LabelEncoder
 
-import ruptures as rpt
-from ruptures.metrics import precision_recall
-from ruptures.metrics import hausdorff
-from ruptures.metrics import randindex
-
 
 import matplotlib.pyplot as plt
 import pm4py
@@ -25,9 +20,6 @@ from datetime import datetime, timezone
 import os
 
 
-from sklearn.cluster import KMeans
-from sklearn.cluster import DBSCAN
-from sklearn.cluster import OPTICS
 
 
 from sklearn import metrics
@@ -36,22 +28,13 @@ from sklearn.preprocessing import StandardScaler
 
 from sklearn.metrics import silhouette_score
 import json
-#import pyodbc
 
 
 
-from scipy.spatial import distance as sci_distance
-from sklearn import cluster as sk_cluster
 from scipy import stats
 from numpy import unique
 from numpy import where
 from sklearn.datasets import make_classification
-
-from kneed import KneeLocator
-
-
-
-from sklearn.neighbors import NearestNeighbors
 
 import seaborn as sns
 
